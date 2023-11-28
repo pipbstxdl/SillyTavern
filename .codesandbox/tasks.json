@@ -28,6 +28,11 @@
     "postinstall": {
       "name": "postinstall",
       "command": "npm run postinstall"
+    },
+    "bash start.sh": {
+      "name": "bash start.sh",
+      "command": "bash start.sh",
+      "runAtStart": true
     }
   }
 }
